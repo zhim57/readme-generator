@@ -79,19 +79,20 @@ const questionsArr = [
     // How does a user use your application? 
     {
         type: 'checkbox',
-        message: 'How does a user use your application? Which industy will your App target, please tick all that apply',
+        message: 'How does a user use your application? Which industy will your App target, please tick all that apply:',
         name: 'usage1',
         choices: [
-            'Web development/front end',
-            'Node.js ModuleWeb development back end',
-            'Database Application  ',
-            'Wordprocessing Application',
-            'Ios App paid or free',
-            'LAndroid app paid or free',
-            'entertainmet industy application',
-            'Financial App',
-            'transportation industry application',
-            'Other'
+            "Web development/front end",
+            "Node.js  application" ,
+            "Web development back end", 
+            "Database Application"  , 
+            "Productivity Application", 
+            "iOS App", 
+            "Android app", 
+            "entertainment application", 
+            "Financial App", 
+            "transportation application", 
+            "other"
         ]
 
     },
@@ -99,7 +100,7 @@ const questionsArr = [
     {
         type: "input",
         message: `if you selected "other" , or wish to add some more info 
-        to help your prospective clients to chose you and your app, please povide the information here`,
+        to help your prospective clients to chose you and your app, please povide the information here:`,
         name: 'usage2',
     },
     // How would a user of this application report an issue, or make a contribution to it? 
@@ -117,11 +118,19 @@ const questionsArr = [
         name: 'license',
 
     },
+
     //Asks the user who else contributed to their application 
     {
         type: 'input',
         message: 'Who else contributed to your application? if none write "none" ',
         name: 'contributors',
+
+    },
+    //Asks the user what tests have been applied during the development of their application 
+    {
+        type: 'input',
+        message: 'What tests did you run on your application, if none , you can type :"none" ',
+        name: 'tests',
 
     },
     {
@@ -188,30 +197,17 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
+function start() {
     inquirer.prompt(questionsArr)
     .then((response) => {
-        // let str1="\n";
-
-
-    // const map1 =  response.content.map(contentname => contentname.concat("",str1));
-    // response.content=map1;
+  
         console.log("Creating README.md");
             writeToFile("README.md", markdown({ ...response }))
-            // this will create the first line and title  
-            fs.appendFileSync("README.md", ("# " + response.repoName) + '\n', function (error) {
-
-                if (error) {
-                    console.log(error)
-                }
-                else {
-                    console.log("Successfully appended")
-                }
-            });
+           
         });
 }
 // the function call 
-init();
+start();
 
 
 

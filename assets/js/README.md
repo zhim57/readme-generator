@@ -1,8 +1,8 @@
 # readme-generator
 ## Description
-Author: cccccccccccccccccccccccc
+Author: Jivko Atanassov
 
-ccccccccccccccccccccccc
+This is a handy readme file generator to help developers meet the needs of great readme files which to complement their binary exploits! No more endless nights of manually creating mediocre readme files. the ultimate README generator has arrived, now the genius programs will have matching readme files. The-boring-guy-blog will surely proclaim it the readme generator of the century!
 
 Github User name: zhim57
 
@@ -18,19 +18,20 @@ Github User name: zhim57
 - Questions
 
 ## Installation
-sssssssssssssssssssssss
+Please first install inquirer:   npm i inquirer, then run node index.
 ## Usage
 - Web development/front end
-- Node.js ModuleWeb development back end
-- Database Application  
-- Wordprocessing Application
-- Ios App paid or free
-- LAndroid app paid or free
-- entertainmet industy application
+- Node.js  application
+- Web development back end
+- Database Application
+- Productivity Application
+- iOS App
+- Android app
+- entertainment application
 - Financial App
-- transportation industry application
-- Other
-ssssssssssssssss
+- transportation application
+- other
+Yes, please download this readme generator, the inventory of digital copies is depleting as we speak,  please snatch yours while you still can!!!
 ## Email
 zhim57@yahoo.com
 ## Contributing
@@ -41,7 +42,7 @@ none
 ## Tests
 
 ## Questions
-please email cccccccccccccccccccccccc with any questions at: zhim57@yahoo.com. Thank You.
+please email Jivko Atanassov with any questions at: zhim57@yahoo.com. Thank You.
 
 ## Links
 
@@ -52,9 +53,9 @@ please email cccccccccccccccccccccccc with any questions at: zhim57@yahoo.com. T
 
 ## Screenshots
 
-![screenshot no.1 of the working application](../imagesimage1.JPG)
+![screenshot no.1 of the working application](../images/image1.JPG)
 
-![screenshot no.2 of the working application](../imagesimage2.JPG)
+![screenshot no.2 of the working application](../images/image2.JPG)
 
 
-  # readme-generator
+  

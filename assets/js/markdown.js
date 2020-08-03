@@ -34,6 +34,7 @@ ${data.contributors}
 ![GitHub](https://img.shields.io/github/license/${data.userName}/${data.repoName})
 
 ## Tests
+${data.tests}
 
 ## Questions
 please email ${data.user} with any questions at: ${data.appEmail}. Thank You.
@@ -47,9 +48,9 @@ please email ${data.user} with any questions at: ${data.appEmail}. Thank You.
 
 ## Screenshots
 
-![screenshot no.1 of the working application](../../assets/images${data.image1})
+![screenshot no.1 of the working application](${data.image1})
 
-![screenshot no.2 of the working application](../../assets/images${data.image2})
+![screenshot no.2 of the working application](${data.image2})
 
 
   `};
