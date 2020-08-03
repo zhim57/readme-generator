@@ -152,7 +152,7 @@ const questionsArr = [
 
     {
         type: 'input',
-        message: 'Please place your screenshot image 1 in the assets/images folder and   the file name only here',
+        message: 'Please place your first image filename  path here, if no image, please enter"no"',
         name: 'image1',
         validate: image1 => {
             if (image1 === "") {
@@ -166,7 +166,7 @@ const questionsArr = [
     },
     {
         type: 'input',
-        message: 'Please place your screenshot image 2 in the assets/images folder and   the file name only here',
+        message: 'Please place your second image filename  path here,if no image, please enter"no"',
         name: 'image2',
         validate: image2 => {
             if (image2 === "") {

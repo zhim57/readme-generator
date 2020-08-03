@@ -1,8 +1,8 @@
 # readme-generator
 ## Description
-Author: sssssssssssssssssssss
+Author: cccccccccccccccccccccccc
 
-sssssssssssssssssss
+ccccccccccccccccccccccc
 
 Github User name: zhim57
 
@@ -18,7 +18,7 @@ Github User name: zhim57
 - Questions
 
 ## Installation
-
+sssssssssssssssssssssss
 ## Usage
 - Web development/front end
 - Node.js ModuleWeb development back end
@@ -30,7 +30,7 @@ Github User name: zhim57
 - Financial App
 - transportation industry application
 - Other
-sssssssssssssssssssss
+ssssssssssssssss
 ## Email
 zhim57@yahoo.com
 ## Contributing
@@ -41,7 +41,7 @@ none
 ## Tests
 
 ## Questions
-please email sssssssssssssssssssss with any questions at: zhim57@yahoo.com. Thank You.
+please email cccccccccccccccccccccccc with any questions at: zhim57@yahoo.com. Thank You.
 
 ## Links
 
@@ -54,7 +54,7 @@ please email sssssssssssssssssssss with any questions at: zhim57@yahoo.com. Than
 
 ![screenshot no.1 of the working application](../imagesimage1.JPG)
 
-![screenshot no.2 of the working application](../imagesimage1.JPG)
+![screenshot no.2 of the working application](../imagesimage2.JPG)
 
 
   # readme-generator
