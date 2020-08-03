@@ -29,8 +29,8 @@ const questionsArr = [
         name: "description",
         validate: description => {
             let validation = description.split(" ");
-            if (validation.length < 1) {
-                return "Description is too short";
+            if (validation.length < 10) {
+                return "Description is too short, please enter   10 or more words";
             }
             else {
                 return true;
