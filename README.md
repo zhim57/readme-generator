@@ -94,9 +94,9 @@ You are required to submit the following:
 
 ## Screenshots
 
-![screenshot no.1 of the working application](../images/image1.JPG)
+![screenshot no.1 of the working application](.assets/images/image1.JPG)
 
-![screenshot no.2 of the working application](../images/image2.JPG)
+![screenshot no.2 of the working application](./assets/images/image2.JPG)
 
 [link to the video walk around](https://drive.google.com/file/d/17b220GzkOREfELclfLiixOgT_Ob4euU9/view)
 [youtube link](https://youtu.be/8HBdIb-w1wM)
