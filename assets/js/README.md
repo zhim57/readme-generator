@@ -1,4 +1,4 @@
-# readme-generator
+# Title : readme-generator
 ## Description
 Author: Jivko Atanassov
 
@@ -7,8 +7,8 @@ This is a handy readme file generator to help developers meet the needs of great
 Github User name: zhim57
 
 ## Table of Contents:
-- Title
-- Description
+- [Title](# Title)
+- [Description](description)
 - Table of Contents
 - Installation
 - Usage
