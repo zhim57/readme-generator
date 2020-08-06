@@ -50,21 +50,21 @@ const questionsArr = [
         message: 'What is your username on Github?',
 
     },
-    // asks for a 
+    // asks for choosing from a peset set for  a table of contents
     {
         type: 'checkbox',
         message: 'what is the Table of contents',
         name: 'content',
         choices: [
-            'Title',
-            'Description',
-            'Table of Contents',
-            'Installation',
-            'Usage',
-            'License',
-            'Contributing',
-            'Tests',
-            'Questions'
+            '[Title](#title)',
+            '[Description](#description)',
+            '[Table of Contents](#table-of-contents)',
+            '[Installation](#installation)',
+            '[Usage](#usage)',
+            '[License](#licence)',
+            '[Contributing](#contributing)',
+            '[Tests](#tests)',
+            '[Questions](#questions)'
         ]
 
     },
@@ -83,20 +83,20 @@ const questionsArr = [
         name: 'usage1',
         choices: [
             "Web development/front end",
-            "Node.js  application" ,
-            "Web development back end", 
-            "Database Application"  , 
-            "Productivity Application", 
-            "iOS App", 
-            "Android app", 
-            "entertainment application", 
-            "Financial App", 
-            "transportation application", 
+            "Node.js  application",
+            "Web development back end",
+            "Database Application",
+            "Productivity Application",
+            "iOS App",
+            "Android app",
+            "entertainment application",
+            "Financial App",
+            "transportation application",
             "other"
         ]
 
     },
-
+    // a free form answer for catching additional input on the matter from the user
     {
         type: "input",
         message: `if you selected "other" , or wish to add some more info 
@@ -119,7 +119,7 @@ const questionsArr = [
 
     },
 
-    //Asks the user who else contributed to their application 
+    // if a team contributing , here is the place for their names
     {
         type: 'input',
         message: 'Who else contributed to your application? if none write "none" ',
@@ -146,19 +146,21 @@ const questionsArr = [
             }
         }
     },
+    // asks the user for a link to the portfolio
     {
         type: 'input',
         message: 'Please copy and paste here the link to the portfolio',
         name: 'link1',
 
     },
+    // asks the user for a link to the working application
     {
         type: 'input',
         message: 'Please copy and paste here the link to the deployed application',
         name: 'link2',
 
     },
-
+    // asks the user for a path to an image (screenshot)
     {
         type: 'input',
         message: 'Please place your first image filename  path here, if no image, please enter"no"',
@@ -173,6 +175,7 @@ const questionsArr = [
         }
 
     },
+    // asks the user for a path to a second image (screenshot)
     {
         type: 'input',
         message: 'Please place your second image filename  path here,if no image, please enter"no"',
@@ -199,14 +202,14 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function start() {
     inquirer.prompt(questionsArr)
-    .then((response) => {
-  
-        console.log("Creating README.md");
+        .then((response) => {
+
+            console.log("Creating README.md");
             writeToFile("README.md", markdown({ ...response }))
-           
+
         });
 }
-// the function call 
+ 
 start();
 
 

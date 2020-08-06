@@ -1,4 +1,7 @@
-# readme-generator
+
+    
+# Title : readme-generator
+
 ## Description
 Author: Jivko Atanassov
 
@@ -7,15 +10,15 @@ This is a handy readme file generator to help developers meet the needs of great
 Github User name: zhim57
 
 ## Table of Contents:
-- Title
-- Description
-- Table of Contents
-- Installation
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+- [Title](#title)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#licence)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 Please first install inquirer:   npm i inquirer, then run node index.
@@ -40,6 +43,7 @@ none
 ![GitHub](https://img.shields.io/github/license/zhim57/readme-generator)
 
 ## Tests
+none
 
 ## Questions
 please email Jivko Atanassov with any questions at: zhim57@yahoo.com. Thank You.
@@ -48,16 +52,16 @@ please email Jivko Atanassov with any questions at: zhim57@yahoo.com. Thank You.
 
 [link to this portfolio](https://github.com/zhim57/readme-generator)
 
-[link to the deployed application](undefined)
+[link to the deployed application](https://github.com/zhim57/readme-generator)
   
 
 ## Screenshots
 
 ![screenshot no.1 of the working application](../images/image1.JPG)
 
-![screenshot no.2 of the working application](../images/image2.JPG)
+![screenshot no.2 of the working application](../images/image2.JPG  )
+
+
 
 [link to the video walk around](https://drive.google.com/file/d/17b220GzkOREfELclfLiixOgT_Ob4euU9/view)
-
-
   

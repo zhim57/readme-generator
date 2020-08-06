@@ -6,11 +6,14 @@
 
 
 
-  // function to generate the markdown template
+  // function to  populate the markdown template below
+  
   function markdown(data) {
-    // data.content.map(contentname => contentname).join('\n');
-    // data.usage1.map(usage1name => usage1name.join('\n'));
-    return `# ${data.repoName}
+ 
+    return `
+    
+# Title : ${data.repoName}
+
 ## Description
 Author: ${data.user}
 
@@ -43,7 +46,7 @@ please email ${data.user} with any questions at: ${data.appEmail}. Thank You.
 
 [link to this portfolio](${data.link1})
 
-[link to the deployed application](${data.user2})
+[link to the deployed application](${data.link2})
   
 
 ## Screenshots
