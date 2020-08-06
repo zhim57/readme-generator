@@ -1,4 +1,4 @@
-# readme-generator
+# Title: readme-generator
 ## Description
 Author: Jivko Atanassov
 
@@ -7,15 +7,15 @@ This is a handy readme file generator to help developers meet the needs of great
 Github User name: zhim57
 
 ## Table of Contents:
-- [Title](#readme-generator)
+- [Title](#title)
 - [Description](#description)
-- Table of Contents
-- Installation
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+- [Table of Contents](#table-of_contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 Please first install inquirer:   npm i inquirer, then run node index.
