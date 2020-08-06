@@ -7,8 +7,8 @@ This is a handy readme file generator to help developers meet the needs of great
 Github User name: zhim57
 
 ## Table of Contents:
-- [Title](# readme-generator)
-- [Description](# description)
+- [Title](#readme-generator)
+- [Description](#description)
 - Table of Contents
 - Installation
 - Usage
